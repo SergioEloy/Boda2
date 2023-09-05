@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
+#root {
+  margin: 0;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.scriptLetters {
+  font-family: "Great Vibes", cursive;
+  margin: 0;
+  color: white;
+  text-shadow: 4px 4px 6px #000000;
+}
+
+.scriptLetters2 {
+  font-family: "Great Vibes", cursive;
+  margin: 24px;
+  color: black;
+  text-shadow: 4px 4px 6px #636363;
+}
+
+.timerNumbers {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
