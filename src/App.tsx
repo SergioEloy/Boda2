@@ -13,7 +13,6 @@ import {
   RadioGroup,
 } from "@mui/material";
 import ubicacion from "./assets/ubicación.png";
-import quinta from "./assets/quinta.png";
 import mesaDeRegalos from "./assets/MesadeRegalos.png";
 
 function App() {
@@ -44,14 +43,12 @@ function App() {
       <Divider />
       <Box display={"flex"} justifyContent={"space-around"} margin={0}>
         <InfoImage
-          icon={quinta}
           imgSrc={ubicacion}
           href="https://maps.app.goo.gl/AfGPz1DEC3SuBBAx7"
           text="Quinta La Ceiba"
           title={english ? "Let's Celebrate Together" : "Celebremos Juntos"}
         />
         <InfoImage
-          icon={quinta}
           imgSrc={mesaDeRegalos}
           href="https://www.chapur.com.mx/detalle-mesa-regalos/89941"
           text="Chapur 89941"
@@ -62,11 +59,11 @@ function App() {
       <Box
         px={3}
         py={2}
-        width={"100%"}
+        minWidth={350}
         justifyContent={"center"}
         display={"flex"}
       >
-        <Box width={"35%"}>
+        <Box>
           <h2>
             {english ? "Send Your Congratulations" : "Envía tus felicitaciones"}
           </h2>

@@ -2,7 +2,6 @@ import { FC } from "react";
 import { Box } from "@mui/material";
 
 export interface InfoImageProps {
-  icon: string;
   imgSrc: string;
   text: string;
   title: string;
@@ -10,7 +9,6 @@ export interface InfoImageProps {
 }
 
 export const InfoImage: FC<InfoImageProps> = ({
-  icon,
   imgSrc,
   text,
   title,
@@ -24,7 +22,6 @@ export const InfoImage: FC<InfoImageProps> = ({
           {text}
         </a>
       </h3>
-      <img src={icon} alt={icon} width={"80%"} />
       <img src={imgSrc} alt={imgSrc} width="60%" />
     </Box>
   );
